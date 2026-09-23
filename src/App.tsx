@@ -6,7 +6,7 @@ import ProductParams from "./pages/ProductParams";
 function App() {
   return (
     <>
-      <div>
+      <div className="min-h-screen bg-gray-800 flex flex-col justify-center items-center">
         <BrowserRouter>
           <h1>React-Router-URL-Parameter-Validation</h1>
           <Navigation />

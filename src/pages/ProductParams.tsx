@@ -9,13 +9,13 @@ const ProductParams = () => {
   console.log(productId);
 
   if (Number.isNaN(productId)) {
-    return <p>Invalid Product ID</p>;
+    return <p className="text-red-600">Invalid Product ID</p>;
   }
 
   const product = ProdcutsData[productId];
 
   return (
-    <div>
+    <div className="text-white">
       {product ? (
         <div>
           {" "}
